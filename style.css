@@ -7,6 +7,12 @@ body {
     margin: 0px;
 }
 
+.intro-text {
+    background-color: rgba(73, 70, 70, 0.342);
+    text-align: center;
+    padding-bottom: 0px;
+}
+
 .nav {
     background-color: rgb(53, 45, 45);
     color: white;
@@ -20,7 +26,7 @@ body {
 }
 
 .nav ul li {
-    padding: 16px;
+    padding: 14px;
     text-align: center;
     font-size: 1.2rem;
     border-bottom: 1px solid black;
@@ -33,6 +39,21 @@ body {
 
 .nav ul li:hover {
     background-color: black;
+}
+
+.shop-name {
+    background-color: rgb(235, 11, 11);
+    color: white;
+    width: 30%;
+    margin: 1rem;
+    padding: 30px;
+    text-align: center;
+    font-size: 15px;   
+}
+.shop-name h2 {
+    font-style: italic;
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .image-area {
@@ -71,6 +92,20 @@ body {
 
 .single-product p a {
     padding: 0px 16px;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+}
+
+table input {
+    background-color: rgb(53, 45, 45);
+    color: white;
+}
+
+table input:hover {
+    background-color: rgb(105, 57, 57);
 }
 
 @media screen and (min-width:700px) {

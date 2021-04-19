@@ -3,16 +3,11 @@ body {
     color: white;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 0px;
     margin: 0px;
-}
-
-body {
     padding: 100px;
     text-align: center;
     font-size: 1.2rem;
 }
 
-form input:hover {
-    background-color: rgb(105, 57, 57);
-}
+
+    
