@@ -27,12 +27,12 @@ body {
     transition: background-color 0.2s;
 }
 
-.nav ul li:hover {
-    background-color: black;
-}
-
 .nav ul li a {
     color: white;
+}
+
+.nav ul li:hover {
+    background-color: black;
 }
 
 .image-area {
@@ -84,5 +84,7 @@ body {
         border-left: 1px solid black;
         text-align: left;
     }
+    
+
     
 }
